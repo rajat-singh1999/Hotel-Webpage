@@ -1,0 +1,83 @@
+body {
+  z-index: -1;
+  text-align: center;
+  font-family: 'Cardo', serif;
+}
+
+h1 {
+  font-size: 500%;
+}
+
+h1, h2, h3, p, a {
+  z-index: 0;
+  color: black;
+}
+
+#top-bar {
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
+  width: auto;
+  right: 0px;
+  left: 0px;
+}
+
+/* title section */
+#title {
+  position: relative;
+  text-align: left;
+  height: 30%;
+}
+
+#title .text-box {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.beach-image {
+  position: relative;
+  width: 100%;
+}
+
+/* features section */
+#features {
+  position: static;
+  margin: auto;
+}
+
+.white-text {
+  color: #ffff;
+}
+
+/* stay section */
+#stay {
+  position: relative;
+  text-align: left;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+@media (max-width: 600px) {
+  .text-box {
+    width: 30%
+  }
+
+  h1 {
+    font-size: 200%
+  }
+
+  h2, h3, p, a {
+    font-size: 70%
+  }
+
+  #title .text-box {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+}
